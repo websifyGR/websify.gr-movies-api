@@ -13,8 +13,8 @@
 > **`version : 0.1.0`**
 > **`author : Charis Chrysochoou`**
 >> **`npm -v : 8.19.3`**
->>  **`node -v : v16.19.1`**
->>  **`git -v : 2.39.2.windows.1`**
+>> **`node -v : v16.19.1`**
+>> **`git -v : 2.39.2.windows.1`**
 
     #
 
@@ -31,8 +31,8 @@ A[https://websify.gr/movies-api] -- GET --> B[(tmdb.org)]
  B -- response --> D{movies-api JSX} 
  D --> E(Search View)
  D --> F(Movie Details View)
- E --> A
- F --> A
+ E -- HTML --> A
+ F -- HTML --> A
 
 ```
 ![WEBSIFY.GR](https://websify.gr/assets/images/logo_websify.png)
