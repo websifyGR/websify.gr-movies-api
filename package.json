@@ -1,0 +1,35 @@
+{
+  "name": "websify.gr-movies-api",
+  "version": "0.1.0",
+  "lockfileVersion": 2,
+  "requires": true,
+  "homepage": "https://websify.gr/movies-api/",
+  "private": true,
+  "packages": {},
+  "browserslist": {
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ],
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "start": "react-scripts start",
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "test": "react-scripts test"
+  }
+}
